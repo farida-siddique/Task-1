@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    min-height: calc(100vh - 200px); /* Subtracting footer height */
+}
+.tp{
+    width: 100%;
+    min-height: 60vh;
+    background-image:url(https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg) ;
+    background-size: cover;
+    background-position:center ;
+}
+.tp .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.text .image{
+    background-image:url(https://vccinsurance.com/wp-content/uploads/2018/06/Virginia-Commonwealth-Homepage-Richmond-Skyline.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+}
+#rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 24px;
+}
+.main .icon{
+ font-size: 24px;
+ height: 32px;
+ width: 32px;
+}
+.bttm{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    }
+    .b1{
+    width: 30%;
+    min-height: inherit;
+    background-image:url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/5c/4d/2f/tour-eiffel-french-moments.jpg?w=900&h=-1&s=1) ;
+    background-size: cover;
+    background-position: center;
+    }
+    .b1 h1{
+        text-align: center;
+        color: rgb(16, 9, 1);
+       
+    }
+    .b1 p{
+        color: rgb(17, 16, 16);
+        text-align:left;
+        font-size: 24px;
+    }
+    .b2{
+        width: 30%;
+        min-height: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+    .b2 .up{
+        width: 233%;
+        min-height: 20vh;
+        background-image: url(https://media.timeout.com/images/105712522/image.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .b2 .up h1{
+        text-align:left;
+    
+    }
+    .b2 .up p{
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-align: left;
+        color: black;
+        font-size: 27px;
+        display: flex;
+    }
+    .b2 .down{
+        width: 233%;
+        min-height: 20vh;
+        background-image:url(https://media.cntraveler.com/photos/5baa751ec4c3254b31283ffd/master/w_1200,c_limit/GettyImages-173051814.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .b2 .down .overlay{
+        position: relative;
+        width: 100%;
+        min-height: 20vh;
+        background-color: rgba(255, 255, 255, 0.344);
+    }
+header {
+    background-color: #552582c1;
+    color: rgb(14, 6, 6);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    align-items: center;
+    height: 200px; /* Set footer height */
+}
+
+.foot-panel {
+    background-color: #222f3d;
+    color: aliceblue;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 10px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: antiquewhite;
+}
+
